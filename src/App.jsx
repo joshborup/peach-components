@@ -1,11 +1,16 @@
-import { Button } from '../'
+import { Header, InnerContainer, OuterContainer } from '../'
 
 import './App.css'
 
 function App() {
   return (
     <div>
-      <Button name={'josh'}/>
+      <Header />
+      <OuterContainer>
+        <InnerContainer>
+          This is my page ok very cool
+        </InnerContainer>
+      </OuterContainer>
     </div>
   )
 }
