@@ -1,5 +1,5 @@
 {
-  "name": "josh-react-library",
+  "name": "@joshuaborup/peach-react-library",
   "private": true,
   "main": "dist/main.js",
   "author": "Joshua D Borup",
@@ -37,5 +37,21 @@
   },
   "dependencies": {
     "prop-types": "^15.8.1"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshborup/peach-components.git"
+  },
+  "keywords": [
+    "components"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshborup/peach-components/issues"
+  },
+  "homepage": "https://github.com/joshborup/peach-components#readme"
 }
